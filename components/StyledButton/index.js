@@ -1,7 +1,7 @@
 import React from 'react'
 import { Pressable ,View,Text} from 'react-native'
 import styles from './styles'
-export default function StyledButton() {
+export default function StyledButton(props) {
   return (
     <View style={styles.container}>
 
